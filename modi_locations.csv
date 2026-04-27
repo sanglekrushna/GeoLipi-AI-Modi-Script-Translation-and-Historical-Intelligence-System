@@ -1,0 +1,21 @@
+name,lat,lng,year,modi_text,category,description,image_url,modi_image
+Sinhagad Fort,18.3663,73.7559,1647,𑘭𑘱𑘽𑘮𑘐𑘞,Fort,Strategically important fort captured by Tanaji Malusare.,/static/images/sinhagad.jpg,/static/images/modi_fort.jpg
+Purandar Fort,18.2811,73.976,1665,𑘢𑘳𑘨𑘽𑘞𑘨,Treaty,Site of the Treaty of Purandar between Shivaji Maharaj and Aurangzeb.,/static/images/purandar.jpg,/static/images/modi_treaty.jpg
+Shaniwar Wada,18.5195,73.8553,1732,𑘫𑘡𑘱𑘪𑘰𑘨 𑘪𑘰𑘚𑘰,Palace,The seat of the Peshwas of the Maratha Empire.,/static/images/shaniwarwada.jpg,/static/images/modi_shaniwar.jpg
+Nana Wada,18.5147,73.8566,1780,𑘡𑘰𑘡𑘰 𑘪𑘰𑘚𑘰,Palace,The residence of Nana Phadnavis, a powerful minister of the Peshwas.,/static/images/nanawada.jpg,/static/images/modi_nana.jpg
+Vishrambaug Wada,18.5126,73.8542,1807,𑘪𑘱𑘫𑘿𑘨𑘰𑘦𑘤𑘰𑘐 𑘪𑘰𑘚𑘰,Palace,The luxurious residence of Peshwa Bajirao II.,/static/images/vishrambaug.jpg,/static/images/modi_vishram.jpg
+Raja Dinkar Kelkar Museum,18.5108,73.8543,1962,𑘨𑘰𑘕𑘰 𑘞𑘱𑘽𑘎𑘨 𑘎𑘹𑘯𑘎𑘨,Museum,A vast collection of artifacts from the Maratha period.,/static/images/museum.jpg,/static/images/modi_museum.jpg
+Pataleshwar Cave Temple,18.5266,73.8497,800,𑘢𑘰𑘝𑘰𑘯𑘹𑘫𑘿𑘪𑘨,Temple,An 8th-century rock-cut temple dedicated to Lord Shiva.,/static/images/pataleshwar.jpg,/static/images/modi_pataleshwar.jpg
+Aga Khan Palace,18.5524,73.9015,1892,𑘁𑘐𑘰 𑘏𑘰𑘡 𑘢𑘹𑘩𑘹𑘭,Palace,A historic building associated with the Indian independence movement.,/static/images/agakhan.jpg,/static/images/modi_agakhan.jpg
+Lohagad Fort,18.6946,73.4798,1564,𑘩𑘻𑘮𑘐𑘞,Fort,An ancient hill fort used by several dynasties.,/static/images/lohagad.jpg,/static/images/modi_lohagad.jpg
+Raigad Fort,18.2347,73.4464,1674,𑘨𑘰𑘧𑘐𑘞,Fort,The capital of the Maratha Empire under Shivaji Maharaj.,/static/images/raigad.jpg,/static/images/modi_raigad.jpg
+ Pratapgad Fort,17.9156,73.5786,1656,𑘢𑘿𑘨𑘝𑘰𑘢𑘐𑘞,Fort,Site of the famous battle between Shivaji Maharaj and Afzal Khan.,/static/images/pratapgad.jpg,/static/images/modi_pratapgad.jpg
+Sindhudurg Fort,16.0486,73.4632,1664,𑘭𑘱𑘽𑘠𑘳𑘞𑘳𑘨𑘿𑘐,Fort,A sea fort built by Shivaji Maharaj to protect the coast.,/static/images/sindhudurg.jpg,/static/images/modi_sindhudurg.jpg
+Janjira Fort,18.2989,72.9632,1490,𑘕𑘽𑘕𑘱𑘨𑘰,Fort,An impregnable sea fort off the coast of Murud.,/static/images/janjira.jpg,/static/images/modi_janjira.jpg
+Murud-Janjira,18.3039,72.9644,1490,𑘦𑘳𑘨𑘳𑘚 𑘕𑘽𑘕𑘱𑘨𑘰,Fort,The coastal town associated with the Janjira Fort.,/static/images/murud.jpg,/static/images/modi_murud.jpg
+Raigad Museum,18.2335,73.4468,1990,𑘨𑘰𑘧𑘐𑘞 𑘦𑘿𑘧𑘳𑘕𑘱𑘧𑘦,Museum,A museum dedicated to the history of Raigad Fort.,/static/images/raigad_museum.jpg,/static/images/modi_raigad_museum.jpg
+Shivneri Fort,19.1989,73.8617,1630,𑘫𑘱𑘪𑘡𑘹𑘨𑘱,Fort,The birthplace of Chhatrapati Shivaji Maharaj.,/static/images/shivneri.jpg,/static/images/modi_shivneri.jpg
+Torna Fort,18.2764,73.6219,1646,𑘝𑘻𑘨𑘿𑘡𑘰,Fort,The first fort captured by Shivaji Maharaj.,/static/images/torna.jpg,/static/images/modi_torna.jpg
+Rajgad Fort,18.2464,73.6828,1646,𑘨𑘰𑘕𑘐𑘞,Fort,The first capital of the Maratha Empire.,/static/images/rajgad.jpg,/static/images/modi_rajgad.jpg
+Panhala Fort,16.8111,74.1128,1178,𑘢𑘡𑘿𑘮𑘰𑘯𑘰,Fort,A historic fort associated with the Marathas and the Adil Shahis.,/static/images/panhala.jpg,/static/images/modi_panhala.jpg
+Vijaydurga Fort,16.5611,73.3328,1205,𑘪𑘱𑘕𑘧𑘞𑘳𑘨𑘿𑘐,Fort,One of the oldest forts on the coast of Maharashtra.,/static/images/vijaydurga.jpg,/static/images/modi_vijaydurga.jpg

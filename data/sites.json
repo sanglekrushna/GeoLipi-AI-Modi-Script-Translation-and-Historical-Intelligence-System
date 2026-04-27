@@ -1,0 +1,290 @@
+[
+  {
+    "name": "Shaniwar Wada",
+    "devanagari": "शनिवार वाडा",
+    "keywords": ["शनिवार", "वाडा", "शनिवारवाडा"],
+    "year": "1732",
+    "type": "Palace",
+    "summary": "Shaniwar Wada was the seat of the Peshwa rulers of the Maratha Empire, built in 1732 in Pune. It served as the political centre of Indian politics in the 18th century until the British takeover in 1818."
+  },
+  {
+    "name": "Sinhagad Fort",
+    "devanagari": "सिंहगड",
+    "keywords": ["सिंहगड", "सिंहगड किल्ला", "कोंढाणा"],
+    "year": "1647",
+    "type": "Fort",
+    "summary": "Sinhagad (Lion's Fort) was the site of the legendary Battle of Sinhagad in 1670, where Tanaji Malusare recaptured it from the Mughals, sacrificing his life. Shivaji Maharaj famously mourned, 'Gad aala, pan sinh gela.'"
+  },
+  {
+    "name": "Aga Khan Palace",
+    "devanagari": "आगा खान पॅलेस",
+    "keywords": ["आगा", "खान", "पॅलेस", "आगाखान"],
+    "year": "1892",
+    "type": "Palace",
+    "summary": "Built in 1892, the Aga Khan Palace served as an internment camp for Mahatma Gandhi and his associates during the Quit India Movement of 1942. It is also the samadhi of Kasturba Gandhi and Mahadev Desai."
+  },
+  {
+    "name": "Lal Mahal",
+    "devanagari": "लाल महाल",
+    "keywords": ["लाल", "महाल", "लालमहाल"],
+    "year": "1630",
+    "type": "Palace",
+    "summary": "Lal Mahal is the historic landmark in Pune where Chhatrapati Shivaji Maharaj spent his formative childhood years under the care of his mother Jijabai. The famous incident of Shivaji cutting Shaista Khan's finger occurred here."
+  },
+  {
+    "name": "Pataleshwar Cave Temple",
+    "devanagari": "पाताळेश्वर",
+    "keywords": ["पाताळेश्वर", "गुहा", "शिव", "मंदिर"],
+    "year": "800",
+    "type": "Temple",
+    "summary": "An 8th-century rock-cut cave temple dedicated to Lord Shiva in Pune, carved out of a single basalt rock by Rashtrakuta artisans. It stands as one of the finest examples of early medieval Deccan rock-cut architecture."
+  },
+  {
+    "name": "Shivneri Fort",
+    "devanagari": "शिवनेरी",
+    "keywords": ["शिवनेरी", "जुन्नर", "जन्मस्थान"],
+    "year": "1630",
+    "type": "Fort",
+    "summary": "Shivneri Fort, located near Junnar, is the birthplace of Chhatrapati Shivaji Maharaj (born February 19, 1630). The fort contains a temple of Goddess Shivai, after whom Shivaji was named. It is a pilgrimage site for followers of the Maratha legacy."
+  },
+  {
+    "name": "Rajgad Fort",
+    "devanagari": "राजगड",
+    "keywords": ["राजगड", "राजगड किल्ला", "राजधानी"],
+    "year": "1646",
+    "type": "Fort",
+    "summary": "Rajgad (King of Forts) served as the first capital of the Maratha Empire under Chhatrapati Shivaji Maharaj for 26 years. It was from here that Shivaji coordinated the expansion of the Maratha Empire across the Deccan."
+  },
+  {
+    "name": "Torna Fort",
+    "devanagari": "तोरणा",
+    "keywords": ["तोरणा", "प्रचंडगड"],
+    "year": "1646",
+    "type": "Fort",
+    "summary": "Torna Fort was the first fort captured by the 16-year-old Shivaji Maharaj in 1646, marking the founding moment of the Maratha Empire. The vast treasure found here funded early Maratha military campaigns."
+  },
+  {
+    "name": "Lohagad Fort",
+    "devanagari": "लोहगड",
+    "keywords": ["लोहगड", "लोहगड किल्ला", "लोणावळा"],
+    "year": "1564",
+    "type": "Fort",
+    "summary": "Lohagad (Iron Fort) is an ancient hill fort near Lonavala that served multiple dynasties including the Marathas. Shivaji Maharaj used it as a treasury fort and it was briefly held by the Mughals before being recaptured."
+  },
+  {
+    "name": "Visapur Fort",
+    "devanagari": "विसापूर",
+    "keywords": ["विसापूर", "विसापूर किल्ला"],
+    "year": "1713",
+    "type": "Fort",
+    "summary": "Visapur Fort was built by Balaji Vishwanath, the first Peshwa of the Maratha Empire, around 1713. It stands adjacent to Lohagad and formed a twin-fort defence system in the Sahyadri mountain range."
+  },
+  {
+    "name": "Nana Wada",
+    "devanagari": "नाना वाडा",
+    "keywords": ["नाना", "वाडा", "नानावाडा", "फडणवीस"],
+    "year": "1780",
+    "type": "Palace",
+    "summary": "Nana Wada was the residence of Nana Phadnavis, the influential Maratha statesman who served as the de facto Prime Minister under multiple Peshwas. The wada reflects classic Peshwa-era Pune architecture."
+  },
+  {
+    "name": "Vishrambaug Wada",
+    "devanagari": "विश्रामबाग वाडा",
+    "keywords": ["विश्रामबाग", "वाडा", "पेशवा"],
+    "year": "1807",
+    "type": "Palace",
+    "summary": "Vishrambaug Wada was the luxurious residence of Peshwa Bajirao II, the last Peshwa of the Maratha Empire. Built in 1807, it is noted for its intricately carved wooden facade, one of the finest examples of Peshwa-era craftsmanship."
+  },
+  {
+    "name": "Raja Dinkar Kelkar Museum",
+    "devanagari": "राजा दिनकर केळकर संग्रहालय",
+    "keywords": ["केळकर", "संग्रहालय", "दिनकर"],
+    "year": "1962",
+    "type": "Museum",
+    "summary": "The Raja Dinkar Kelkar Museum houses one of the world's most comprehensive collections of everyday objects from the Maratha and pre-Maratha period, lovingly collected by Dr. D.G. Kelkar over 60 years in memory of his son Raja."
+  },
+  {
+    "name": "Shinde Chhatri",
+    "devanagari": "शिंदे छत्री",
+    "keywords": ["शिंदे", "छत्री", "महादजी", "वाडेश्वर"],
+    "year": "1794",
+    "type": "Memorial",
+    "summary": "Shinde Chhatri is a memorial dedicated to Mahadji Shinde, the legendary Maratha commander who reunified the Maratha Confederacy and defeated several Mughal and Rajput forces. The memorial blends Indo-Gothic and Maratha architectural styles."
+  },
+  {
+    "name": "Parvati Hill",
+    "devanagari": "पार्वती",
+    "keywords": ["पार्वती", "पर्वती", "टेकडी", "मंदिर"],
+    "year": "1749",
+    "type": "Temple",
+    "summary": "Parvati Hill houses a temple complex built by Peshwa Balaji Baji Rao in 1749 and was considered the personal place of worship for the Peshwa rulers. The temple offers a panoramic view of Pune and holds a museum of Maratha-era artefacts."
+  },
+  {
+    "name": "Chaturshringi Temple",
+    "devanagari": "चतु:शृंगी",
+    "keywords": ["चतुःशृंगी", "चतुर्शृंगी", "देवी", "शृंगी"],
+    "year": "1750",
+    "type": "Temple",
+    "summary": "The Chaturshringi Temple is dedicated to Goddess Chaturshringi, one of the kuldaivatas (clan deities) of Pune. It sits atop a hill and is an important centre for the Navaratri festival in Maharashtra."
+  },
+  {
+    "name": "Sarasbaug",
+    "devanagari": "सारसबाग",
+    "keywords": ["सारसबाग", "गणपती", "तळ्यातला"],
+    "year": "1784",
+    "type": "Garden",
+    "summary": "Sarasbaug is a historic garden in Pune built around a lake, featuring the famous Talyatla Ganpati (lake Ganesh) temple. It was developed by the Peshwas and remains one of Pune's most beloved heritage green spaces."
+  },
+  {
+    "name": "Purandar Fort",
+    "devanagari": "पुरंदर",
+    "keywords": ["पुरंदर", "पुरंदर किल्ला", "तह"],
+    "year": "1665",
+    "type": "Fort",
+    "summary": "Purandar Fort was the site of the Treaty of Purandar (1665) between Shivaji Maharaj and the Mughal general Jai Singh. Under this treaty, Shivaji ceded 23 forts to the Mughals, though he later reclaimed them all."
+  },
+  {
+    "name": "Raigad Fort",
+    "devanagari": "रायगड",
+    "keywords": ["रायगड", "रायगड किल्ला", "राज्याभिषेक"],
+    "year": "1674",
+    "type": "Fort",
+    "summary": "Raigad Fort was the magnificent capital of the Maratha Empire where Chhatrapati Shivaji Maharaj was crowned in a grand ceremony on June 6, 1674. It remained the seat of Maratha power and is where Shivaji Maharaj attained samadhi in 1680."
+  },
+  {
+    "name": "Janjira Fort",
+    "devanagari": "जंजिरा",
+    "keywords": ["जंजिरा", "मुरुड", "सागरी किल्ला"],
+    "year": "1490",
+    "type": "Fort",
+    "summary": "Janjira Fort is the only fort on the west coast of India that was never captured, standing impregnable against attacks by the Marathas, British, and Portuguese. It was built on a rock island by the Siddi rulers off the coast of Murud."
+  },
+  {
+    "name": "Pratapgad Fort",
+    "devanagari": "प्रतापगड",
+    "keywords": ["प्रतापगड", "अफजलखान", "भवानी"],
+    "year": "1656",
+    "type": "Fort",
+    "summary": "Pratapgad Fort is historically significant as the site of the Battle of Pratapgad (1659), where Shivaji Maharaj slew the Bijapur general Afzal Khan. The fort houses the famous Bhavani Temple and stands as a symbol of Maratha bravery."
+  },
+  {
+    "name": "Sindhudurg Fort",
+    "devanagari": "सिंधुदुर्ग",
+    "keywords": ["सिंधुदुर्ग", "सागरी", "मालवण"],
+    "year": "1664",
+    "type": "Fort",
+    "summary": "Sindhudurg (Ocean Fort) is a sea fort built by Chhatrapati Shivaji Maharaj in 1664 on a rocky island off the Malvan coast to protect the Maratha coastline. It contains a temple dedicated to Shivaji Maharaj, one of the few built during his lifetime."
+  },
+  {
+    "name": "Vijaydurga Fort",
+    "devanagari": "विजयदुर्ग",
+    "keywords": ["विजयदुर्ग", "घेरिया"],
+    "year": "1205",
+    "type": "Fort",
+    "summary": "Vijaydurga (Fort of Victory) is one of the oldest forts on the Maharashtra coast, with origins dating to the 1200s. Under the Marathas, Sarkhel Kanhoji Angre used it as the headquarters of the Maratha navy."
+  },
+  {
+    "name": "Panhala Fort",
+    "devanagari": "पन्हाळा",
+    "keywords": ["पन्हाळा", "पन्हाळगड", "कोल्हापूर"],
+    "year": "1178",
+    "type": "Fort",
+    "summary": "Panhala Fort is one of the largest forts in the Deccan and was strategically important for both the Adil Shahis and Marathas. Shivaji Maharaj escaped from Panhala in a daring night march while under siege by Bijapur forces."
+  },
+  {
+    "name": "Karla Caves",
+    "devanagari": "कार्ला लेणी",
+    "keywords": ["कार्ला", "लेणी", "बौद्ध", "चैत्य"],
+    "year": "-160",
+    "type": "Cave",
+    "summary": "The Karla Caves contain one of the finest and largest Hinayana Buddhist Chaitya halls in India, dating back to the 2nd century BCE. The great Chaitya griha is supported by pillars topped with kneeling elephants and is a masterpiece of early Indian rock-cut architecture."
+  },
+  {
+    "name": "Bhaja Caves",
+    "devanagari": "भाजा लेणी",
+    "keywords": ["भाजा", "लेणी", "बौद्ध"],
+    "year": "-200",
+    "type": "Cave",
+    "summary": "The Bhaja Caves are a group of 22 rock-cut Buddhist caves dating to the 2nd century BCE, among the oldest in Maharashtra. They feature unusual open-front chaitya and feature rare early examples of Buddhist narrative sculpture."
+  },
+  {
+    "name": "Bedse Caves",
+    "devanagari": "बेडसे लेणी",
+    "keywords": ["बेडसे", "लेणी"],
+    "year": "-100",
+    "type": "Cave",
+    "summary": "The Bedse Caves are a lesser-known group of ancient Buddhist rock-cut caves near Maval, dating to the 1st century BCE. They feature a chaitya hall and viharas and offer a quieter contrast to the nearby Karla and Bhaja caves."
+  },
+  {
+    "name": "Peshwa Daftar",
+    "devanagari": "पेशवे दप्तर",
+    "keywords": ["पेशवे", "दप्तर", "दफ्तर", "कागदपत्रे"],
+    "year": "1820",
+    "type": "Archive",
+    "summary": "The Peshwa Daftar (Peshwa Archives) is the largest repository of historical documents written in Modi script in the world, containing thousands of letters, revenue records, and official decrees of the Maratha state from the 17th to 19th centuries."
+  },
+  {
+    "name": "Mandai Market",
+    "devanagari": "मंडई",
+    "keywords": ["मंडई", "बाजार"],
+    "year": "1885",
+    "type": "Market",
+    "summary": "Mandai Market is a historic Victorian-era vegetable market built in 1885 during British rule in Pune. Its distinctive architecture, blending Gothic and Maratha styles, makes it a heritage landmark in the heart of the old city."
+  },
+  {
+    "name": "Tulshibaug",
+    "devanagari": "तुळशीबाग",
+    "keywords": ["तुळशीबाग", "राम मंदिर"],
+    "year": "1761",
+    "type": "Temple",
+    "summary": "Tulshibaug is a historic Ram temple complex built during the Peshwa era in 1761. It is also famous for the surrounding bazaar that grew around it, making it one of Pune's most vibrant cultural and commercial areas."
+  },
+  {
+    "name": "Kasba Ganpati",
+    "devanagari": "कसबा गणपती",
+    "keywords": ["कसबा", "गणपती", "ग्रामदेवता"],
+    "year": "1630",
+    "type": "Temple",
+    "summary": "Kasba Ganpati is the presiding deity (Gramadevata) of Pune and the city's first Ganpati to be worshipped during the Ganesh festival. The temple was established by Jijabai, the mother of Chhatrapati Shivaji Maharaj."
+  },
+  {
+    "name": "Bhimashankar Temple",
+    "devanagari": "भीमाशंकर",
+    "keywords": ["भीमाशंकर", "ज्योतिर्लिंग", "शिव", "सह्याद्री"],
+    "year": "1200",
+    "type": "Temple",
+    "summary": "Bhimashankar is one of the twelve sacred Jyotirlingas of Lord Shiva, located in the Sahyadri mountains near Pune. The temple is surrounded by a wildlife sanctuary and is an important pilgrimage destination for devotees across Maharashtra."
+  },
+  {
+    "name": "Omkareshwar Temple",
+    "devanagari": "ओंकारेश्वर",
+    "keywords": ["ओंकारेश्वर", "मुठा", "शिव"],
+    "year": "1738",
+    "type": "Temple",
+    "summary": "The Omkareshwar Temple in Pune is an 18th-century Shiva temple built on the banks of the Mutha river by the Peshwas. It is known for its exquisite Hemadpanthi-style architecture and riverside location."
+  },
+  {
+    "name": "Alandi",
+    "devanagari": "आळंदी",
+    "keywords": ["आळंदी", "ज्ञानेश्वर", "संत", "समाधी"],
+    "year": "1296",
+    "type": "Pilgrimage",
+    "summary": "Alandi is the sacred samadhi (resting place) of Sant Dnyaneshwar, the 13th-century poet-saint who composed the Dnyaneshwari, a seminal commentary on the Bhagavad Gita in Marathi. It is a major centre of the Warkari devotional tradition."
+  },
+  {
+    "name": "Dehu",
+    "devanagari": "देहू",
+    "keywords": ["देहू", "तुकाराम", "अभंग", "संत"],
+    "year": "1608",
+    "type": "Pilgrimage",
+    "summary": "Dehu is the birthplace of Sant Tukaram (1608–1650), the celebrated Bhakti movement poet-saint of Maharashtra. His devotional compositions (Abhangas) are central to the Warkari tradition and are considered among the greatest works of Marathi literature."
+  },
+  {
+    "name": "Bhor Rajwada",
+    "devanagari": "भोर राजवाडा",
+    "keywords": ["भोर", "राजवाडा", "पंत सचिव"],
+    "year": "1869",
+    "type": "Palace",
+    "summary": "Bhor Rajwada is a magnificent 19th-century palace in Bhor that reflects the Maratha style of royal architecture. It was the seat of the Pant Sachiv dynasty, a prominent noble family that served the Maratha Empire as secretaries of state."
+  }
+]

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modi Lipi Intelligence Dashboard</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="brand">
+                <h1>𑘦𑘻𑘚𑘱 <span>Intelligence</span></h1>
+            </div>
+            
+            <nav class="nav-menu">
+                <button id="tab-map" class="nav-item active" onclick="switchTab('map')">📍 Discovery Map</button>
+                <button id="tab-translator" class="nav-item" onclick="switchTab('translator')">🖋️ Modi Lipi Script Translator</button>
+            </nav>
+
+            <div id="discovery-sidebar" class="sidebar-panel">
+                <div class="stats-card">
+                    <h3>Archive Status</h3>
+                    <div class="stat">
+                        <span>Total Sites</span>
+                        <span id="site-count">0</span>
+                    </div>
+                </div>
+                
+                <div class="filter-card" style="margin-bottom: 1.5rem; background: var(--bg-panel); padding: 1rem; border-radius: 12px; border: 1px solid var(--glass);">
+                    <h3 style="color: var(--heritage-gold); font-size: 0.9rem; margin-bottom: 0.8rem; text-transform: uppercase; letter-spacing: 1px;">Map Filters</h3>
+                    <div style="display: flex; flex-direction: column; gap: 10px;">
+                        <select id="century-filter" class="premium-select" onchange="applyFilters()">
+                            <option value="all">All Eras</option>
+                            <option value="ancient">Ancient (Pre-1200)</option>
+                            <option value="13">13th Century</option>
+                            <option value="14">14th Century</option>
+                            <option value="15">15th Century</option>
+                            <option value="16">16th Century</option>
+                            <option value="17">17th Century</option>
+                            <option value="18">18th Century</option>
+                            <option value="19">19th Century</option>
+                            <option value="20">20th Century</option>
+                        </select>
+                        <select id="category-filter" class="premium-select" onchange="applyFilters()">
+                            <option value="all">All Categories</option>
+                            <option value="Fort">Fort</option>
+                            <option value="Palace">Palace</option>
+                            <option value="Temple">Temple</option>
+                            <option value="Parvati Temple">Parvati Temple</option>
+                            <option value="Museum">Museum</option>
+                            <option value="Garden">Garden</option>
+                            <option value="Pilgrimage">Pilgrimage</option>
+                            <option value="Memorial">Memorial</option>
+                            <option value="Archive">Archive</option>
+                            <option value="Market">Market</option>
+                            <option value="Cave">Cave</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <h3>About Modi Lipi</h3>
+                    <div class="info-content">
+                        <p><span class="icon">🏛️</span> <strong>Origin:</strong> Used during Maratha Empire administration.</p>
+                        <p><span class="icon">⏳</span> <strong>Period:</strong> 17th–19th century.</p>
+                        <p><span class="icon">📜</span> <strong>Usage:</strong> Revenue records, letters, official documents.</p>
+                        <div class="characteristics">
+                            <strong>Characteristics:</strong>
+                            <ul>
+                                <li>Cursive script</li>
+                                <li>Fast writing style</li>
+                                <li>Minimal pen lifts</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            <div id="translator-sidebar" class="sidebar-panel" style="display: none;">
+                <div class="info-card">
+                    <h3>About Translator</h3>
+                    <div class="info-content">
+                        <p>Converts Modi Lipi → Devanagari → English</p>
+                        <p>Supports historical script interpretation</p>
+                        <p>Works with Unicode Modi input</p>
+                    </div>
+                </div>
+                
+                <div class="info-card" style="margin-top: 1.5rem;">
+                    <h3>How to Use</h3>
+                    <div class="info-content">
+                        <ol style="padding-left: 1rem; color: var(--text-secondary); font-size: 0.85rem; line-height: 1.5;">
+                            <li>Paste Modi text (Unicode)</li>
+                            <li>Click "Interpret Script"</li>
+                            <li>View Devanagari output and English translation</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="info-card" style="margin-top: 1.5rem;">
+                    <h3>Modes</h3>
+                    <div class="info-content">
+                        <ul style="padding-left: 1rem; color: var(--text-secondary); font-size: 0.85rem; line-height: 1.5;">
+                            <li><strong>Manual Input</strong> → text-based conversion</li>
+                            <li><strong>OCR (experimental)</strong> → image-based extraction</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Map View -->
+            <div id="map-view" class="content-view active">
+                <div class="view-header">
+                    <h2>Discovery Map</h2>
+                </div>
+                <div id="map"></div>
+                <div class="map-controls">
+                    <button id="wand-toggle" class="btn-wand" onclick="toggleWand()">✨ Magic Wand: OFF</button>
+                </div>
+            </div>
+
+            <!-- Integrated Streamlit Workspace (Script & OCR) -->
+            <div id="translator-view" class="content-view" style="padding: 0;">
+                <div style="width: 100%; height: calc(100vh - 80px); overflow: hidden;">
+                    <iframe id="translator-iframe" src="http://localhost:8502/?embedded=true" style="width: 100%; height: 100%; border: none; background: #0a0e17;"></iframe>
+                </div>
+            </div>
+
+        </main>
+
+        <!-- Right Panel (Context) - Only shown for Map -->
+        <section id="right-panel" class="right-panel">
+            <div class="panel-header">
+                <h2 id="place-name">Select a Location</h2>
+                <span id="place-year" class="badge">Year</span>
+            </div>
+            
+            <div class="panel-content">
+                <div id="panel-welcome">
+                    <p>Click a heritage marker on the map to unlock historical insights and script interpretations.</p>
+                </div>
+
+                <div id="place-data" style="display:none;">
+                    <div class="image-container">
+                        <img id="place-image" src="" alt="Site Image">
+                    </div>
+
+                    <div id="modi-section" class="script-box">
+                        <h4>Archival Inscription</h4>
+                        <div id="modi-raw" class="modi-glyph"></div>
+                        <div class="translation-grid">
+                            <div>
+                                <span>Devanagari</span>
+                                <p id="dev-text"></p>
+                            </div>
+                            <div>
+                                <span>English</span>
+                                <p id="eng-text"></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="ai-insight-container" class="ai-insight" style="display: none;">
+                        <h4>📜 Intelligence Summary</h4>
+                        <p id="insight-text">Analyzing archival data...</p>
+                    </div>
+
+                    <div id="nearby-section" class="nearby-section" style="display: none;">
+                        <h4>📍 Nearby Historical Sites (5km)</h4>
+                        <div id="nearby-list" class="nearby-list">
+                            <!-- Nearby sites populated via JS -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="/static/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+flask
+flask-cors
+streamlit
+torch
+torchvision
+opencv-python
+numpy
+pillow
+pytesseract
+transformers
+requests
+unicodedata2
+pandas
+python-dotenv
