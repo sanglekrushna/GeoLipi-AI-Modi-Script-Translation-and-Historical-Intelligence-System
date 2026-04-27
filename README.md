@@ -1,59 +1,130 @@
-# Modi Lipi Intelligence System 🏛️📜
+# GeoLipi AI: Modi Script Translation & Historical Intelligence 🏛️📜
 
-An advanced AI-driven platform for preserving and interpreting the historic **Modi Lipi** script. This system combines Deep Learning OCR, linguistic post-processing, and interactive historical exploration to bridge the gap between ancient records and modern understanding.
+[![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org/)
+[![Flask](https://img.shields.io/badge/Flask-2.3+-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.25+-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+
+An advanced, AI-driven ecosystem designed to preserve, interpret, and digitize the historic **Modi Lipi** script. GeoLipi AI bridges the gap between ancient Maratha Empire records and modern linguistic understanding through cutting-edge Deep Learning and interactive Geospatial intelligence.
+
+---
+
+## 🌟 Project Overview
+
+Modi Lipi was the primary script used for writing the Marathi language for centuries, especially during the Maratha Empire. Today, only a handful of experts can read it. **GeoLipi AI** democratizes access to these historic records by providing:
+
+1.  **Automated Transcription**: Converting complex Modi ligatures to Devanagari.
+2.  **Linguistic Intelligence**: Correcting OCR errors using Marathi phonetics and dictionary mapping.
+3.  **Historical Context**: Mapping historical sites where these scripts were prevalent.
+
+---
+
+## 🏗️ System Architecture
+
+```mermaid
+graph TD
+    A[Modi Script Image] --> B[CRNN OCR Engine]
+    B --> C[Raw Text Output]
+    C --> D[Marathi Corrector Layer]
+    D --> E[Final Devanagari Translation]
+    
+    subgraph "Intelligence Dashboard"
+        F[Flask Web Server]
+        G[Leaflet.js Map]
+        H[Heritage Dataset]
+    end
+    
+    E --> F
+    H --> G
+```
+
+---
 
 ## 🚀 Key Features
 
-- **📜 Script Translator**: Real-time translation from Modi Lipi to Devanagari (Marathi) using high-accuracy mapping.
-- **👁️ Deep Learning OCR**: A CRNN-based Optical Character Recognition engine trained to identify complex Modi characters.
-- **✍️ Marathi Text Correction**: Intelligent post-processing layer using Levenshtein distance for refining OCR outputs.
-- **🗺️ Heritage Explorer**: Interactive dashboard featuring 30+ heritage sites with historical insights and mapping.
-- **✨ Magic Wand AI**: AI-driven insights for historical artifacts and script interpretation.
+### 1. 📜 High-Accuracy Script Translator
+Uses a custom-mapped translation engine that handles the intricate stroke patterns of Modi Lipi, converting them into readable Devanagari in real-time.
+
+### 2. 👁️ CRNN-Based OCR Engine
+A Convolutional Recurrent Neural Network (CRNN) built with PyTorch. It utilizes CNN layers for feature extraction and GRU/LSTM layers for sequential character recognition, specifically tuned for the cursive nature of Modi script.
+
+### 3. ✍️ Marathi Linguistic Layer
+Implements an intelligent post-processing algorithm using **Levenshtein Distance** to cross-reference OCR outputs with a specialized Marathi dictionary, significantly reducing character misidentification.
+
+### 4. 🗺️ Heritage Explorer Dashboard
+An interactive map featuring **30+ historical heritage sites** (Forts, Palaces, Temples). Users can explore historical data, view artifacts, and get AI-driven insights via the "Magic Wand" feature.
+
+---
 
 ## 🛠️ Technology Stack
 
-- **Backend**: Flask (Intelligence Dashboard) & Streamlit (Translator Interface)
-- **OCR Engine**: PyTorch / CRNN Architecture
-- **NLP**: Custom phonetic mapping and Marathi dictionary correction
-- **Frontend**: Responsive HTML5/CSS3 with Leaflet.js for interactive mapping
-- **Data**: JSON-based historical site database
+| Component | Technology |
+| :--- | :--- |
+| **Deep Learning** | PyTorch, CRNN Architecture |
+| **Backend** | Flask (Dashboard), Streamlit (Translator) |
+| **Frontend** | HTML5, CSS3, Leaflet.js (Mapping) |
+| **NLP** | Levenshtein Distance, Custom Phonetic Mapping |
+| **Storage** | JSON, CSV-based Metadata |
+
+---
 
 ## 📦 Installation & Setup
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/modi-lipi-intelligence.git
-   cd modi-lipi-intelligence
-   ```
+### 1. Clone the Repository
+```bash
+git clone https://github.com/sanglekrushna/GeoLipi-AI-Modi-Script-Translation-and-Historical-Intelligence-System.git
+cd GeoLipi-AI-Modi-Script-Translation-and-Historical-Intelligence-System
+```
 
-2. **Create a Virtual Environment**:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
+### 2. Set Up Environment
+```bash
+python -m venv venv
+# Windows:
+venv\Scripts\activate
+# Linux/Mac:
+source venv/bin/activate
+```
 
-3. **Install Dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
+### 3. Install Requirements
+```bash
+pip install -r requirements.txt
+```
 
-4. **Run the Applications**:
-   - **Main Dashboard (Flask)**: `python app.py`
-   - **Script Translator (Streamlit)**: `streamlit run streamlit_app.py`
+### 4. Launch Applications
+*   **Intelligence Dashboard**: `python app.py` (Runs on port 5000)
+*   **Script Translator**: `streamlit run streamlit_app.py` (Runs on port 8501)
 
-## 📂 Project Structure
+---
 
-- `app.py`: Main Flask server for the heritage dashboard.
-- `streamlit_app.py`: Interactive script translator UI.
-- `crnn_model.py`: Neural network architecture for character recognition.
-- `translator/`: Core logic for script conversion.
-- `marathi_corrector.py`: Text refinement and spell-check layer.
-- `data/`: Datasets and historical metadata.
+## 📂 Repository Structure
+
+```text
+├── app.py                  # Main Flask server (Dashboard)
+├── streamlit_app.py        # Streamlit interface (Translator)
+├── crnn_model.py           # Neural network architecture
+├── marathi_corrector.py    # Spell-check and NLP logic
+├── translator/             # Core translation mapping files
+├── utils/                  # Utility functions and matchers
+├── static/                 # CSS, JS, and Heritage Images
+└── data/                   # Historical JSON/CSV datasets
+```
+
+---
 
 ## 🤝 Contributing
+We are committed to preserving historical heritage. If you have expertise in Modi Lipi, Paleography, or Machine Learning, we welcome your contributions!
 
-Contributions are welcome! If you'd like to improve the OCR accuracy or add more heritage sites, please feel free to submit a Pull Request.
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
 
 ## 📄 License
+Distributed under the MIT License. See `LICENSE` for more information.
 
-This project is licensed under the MIT License.
+---
+**Developed with ❤️ for History and AI.**
