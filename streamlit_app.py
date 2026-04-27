@@ -128,7 +128,7 @@ def load_known_sites():
     except Exception:
         return []
 
-_GEMINI_KEY = "AIzaSyAj-OVfsDIEBcpwCPAqLwlUPzT3fF6ywwc"
+_GEMINI_KEY = "YOUR_API_KEY"
 _GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key={_GEMINI_KEY}"
 
 # -----------------------------
